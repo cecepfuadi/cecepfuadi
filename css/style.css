@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+* {
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(244, 243, 248);
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 100px 150px;
+  width: fit-content;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+p{
+    font-size: 20px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(187, 169, 209);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.profile-name{
+    margin-left: 15px;
+}
+.profile-name h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+h1:hover{
+    color: rgb(163, 134, 249);
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  margin-top: 10px;
+}
+li {
+  list-style: none;
+  display: inline;
+  padding-right: 15px;
+}
+ul li a {
+  color: rgb(137, 137, 137);
+  position: relative;
+  font-size: 20px;
+}
+ul li a:hover {
+  color: #c4b8e2;
+}
+ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #c4b8e2;
+  transition: 0.3s;
+  bottom: 0;
+}
+ul li a:hover:after {
+  width: 100%;
+}
+
+.main{
+    margin: 0px 100px;
+    width: fit-content;
+}
+.about{
+    margin-top: 50px;
+    box-shadow: 4px 4px 10px lightblue;
+    border-radius: 20px;
+    border: 1px solid rgb(241, 238, 238);
+    padding: 50px;
+}
+.title{
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.title h1{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.experiences{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.experiences .item{
+    display: flex;
+    box-shadow: 4px 4px 10px lightblue;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.experiences .item img{
+    border-radius: 20px;
+    height: 300px;
+}
+.experiences .item .list{
+    margin: 30px 20px;
+    text-align: left;
+}
+.experiences .item .list .item-list{
+    margin-bottom: 10px;
+}
+
+.experiences .item .list .item-list h3{
+    font-size: 25px;
+    color: rgb(125, 145, 183);
+}
+.experiences .item .list .item-list h4{
+    font-size: 20px;
+    color: gray;
+}
+.experiences .item .list .item-list p{
+    font-size: 17px;
+    color: gray;
+}
+
+.education{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.education .item{
+    display: flex;
+    box-shadow: 4px 4px 10px lightblue;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.education .item img{
+    border-radius: 20px;
+    height: 300px;
+}
+.education .item .list{
+    flex: 2;
+    margin: 30px 60px;
+    text-align: left;
+}
+.education .item .list .item-list{
+    margin-bottom: 30px;
+}
+
+.education .item .list .item-list h3{
+    font-size: 25px;
+    color: rgb(125, 145, 183);
+}
+.education .item .list .item-list h4{
+    font-size: 20px;
+    color: gray;
+}
+.education .item .list .item-list p{
+    font-size: 17px;
+    color: gray;
+}
+
+.skills{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.skills .item{
+    display: flex;
+    box-shadow: 4px 4px 10px lightblue;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.skills .item img{
+    border-radius: 20px;
+    height: 320px;
+}
+.skills .item .list{
+    flex: 2;
+    margin: 30px 60px;
+    text-align: left;
+}
+.skills .item .list .item-list{
+    margin-bottom: 30px;
+}
+
+.skills .item .list .item-list h3{
+    font-size: 25px;
+    color: rgb(125, 145, 183);
+}
+.skills .item .list .item-list h4{
+    font-size: 20px;
+    color: gray;
+}
+.skills .item .list .item-list p{
+    font-size: 17px;
+    color: gray;
+}
+
+.interest{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.interest .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.interest .item .int1{
+    height: 250px;
+    box-shadow: 4px 4px 10px lightblue;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.interest .item .int1 img{
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.award{
+    text-align: center;
+    margin-top: 100px;
+}
+.award img{
+    height: 200px;
+    margin: 50px;
+}
+footer{
+    margin-top: 100px;
+}
+footer p{
+    font-size: 15px;
+}
